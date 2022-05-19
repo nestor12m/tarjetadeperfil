@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&family=Inter:wght@300;400;500;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca:wght@400;700&family=Outfit:wght@300;400;600;700&family=Poppins:wght@300&family=Quicksand:wght@300;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,500;1,100;1,700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+
+--Darkcyan: hsl(185, 75%, 39%);
+--Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+--Darkgrayishblue: hsl(227, 10%, 46%);
+--Darkgray: hsl(0, 0%, 59%);
+}
+
+body{
+    background-color: var(--Darkcyan);
+    font-family: 'DM Sans', sans-serif;
+    
+}
+.contenedor-principal{
+    
+    height:390px;
+    width: 320px;
+    margin: 100px auto;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   
+}
+.contenedor-uno{
+ background-image: url(../img/bg-pattern-card.svg);
+ height: 150px;
+ width: 100%;
+ border-radius: 10px 10px 0 0;
+}
+.contenedror-dos{
+    background-color: white;
+    height: 159px;
+    text-align: center;
+    
+}
+.contenedror-dos h2{
+    position: relative;
+    top:-35px;
+    font-size: 18px;
+}
+.contenedror-dos p{
+    position: relative;
+    top:-35px;
+    color: var(--Darkgray);
+}
+span{
+    color: var(--Darkgray);
+    font-weight: 300;
+}
+img{
+    position: relative;
+    border-radius: 50%;
+    border: 6px solid white;
+    top:-45px;
+}
+.contenedor-tres{
+    background-color: white;
+    display: flex;
+    border-top:0.5px solid var(--Darkgray);
+    border-radius:  0 0 10px 10px;
+    border-top: 1px white;
+
+
+}
+.item1{
+    width: 33%;
+    height: 85px;
+    /* padding-bottom: 30px; */
+    text-align: center;
+    
+    padding: 20px 20px;
+
+}
+.item1 p{
+    font-size: 12px;
+    color: var(--Darkgray);
+
+}
+.item1 h2{
+    font-size: 18px;
+    font-weight: 900;
+}
